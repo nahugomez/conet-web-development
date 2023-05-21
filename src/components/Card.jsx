@@ -1,5 +1,6 @@
 import React from "react";
 import { BsFillCheckCircleFill } from "react-icons/bs";
+import Button from "./Button";
 
 const Card = ({ title, price, description, className }) => {
     return (
@@ -7,7 +8,8 @@ const Card = ({ title, price, description, className }) => {
             <div className="p-6">
                 <h3 class="text-xl font-semibold capitalize text-blue-700">{title}</h3>
                 <p className="text-gray-700">{description}</p>
-                <p class="mt-4 text-2xl font-bold text-gray-700">${price}</p>
+                <p class="my-4 text-2xl font-bold text-gray-700">${price}</p>
+                <Button className={"w-full py-2"}>Contactanos</Button>
             </div>
             <hr class="border-gray-200"></hr>
             <div className="p-6">
