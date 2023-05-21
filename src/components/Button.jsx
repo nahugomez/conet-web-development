@@ -1,6 +1,6 @@
 import React from "react";
 
-const Button = ({ className, onClick, href, children }) => {
+const Button = ({ className, onClick, href, children, secondary }) => {
     if (href) {
         return (
             <a className={className} href={href}>
@@ -9,8 +9,16 @@ const Button = ({ className, onClick, href, children }) => {
         );
     }
 
+    if (secondary) {
+        return (
+            <button className={"rounded-md border-2 border-black duration-200 hover:bg-black hover:text-white " + className} onClick={onClick}>
+                {children}
+            </button>
+        );
+    }
+
     return (
-        <button className={"border-blue-700 border-2 bg-blue-700 rounded-md text-white hover:bg-white hover:text-blue-600 duration-200 " + className} onClick={onClick}>
+        <button className={"rounded-md border-2 border-blue-700 bg-blue-700 text-white duration-200 hover:bg-white hover:text-blue-600 " + className} onClick={onClick}>
             {children}
         </button>
     );
