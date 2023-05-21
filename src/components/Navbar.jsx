@@ -9,6 +9,7 @@ const Navbar = () => {
         { text: "Inicio", ref: "#" },
         { text: "Desarrollo", ref: "#" },
         { text: "Precio", ref: "#" },
+        { text: "Preguntas Frecuentes", ref: "#" },
         { text: "Nosotros", ref: "#" },
     ];
 
