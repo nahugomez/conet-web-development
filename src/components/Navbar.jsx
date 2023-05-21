@@ -7,9 +7,9 @@ import Brand from "./Brand";
 const Navbar = () => {
     const Links = [
         { text: "Inicio", ref: "#" },
-        { text: "Sobre Nosotros", ref: "#" },
-        { text: "Servicios", ref: "#" },
-        { text: "Proyectos", ref: "#" },
+        { text: "Desarrollo", ref: "#" },
+        { text: "Precio", ref: "#" },
+        { text: "Nosotros", ref: "#" },
     ];
 
     const [isOpen, setIsOpen] = useState(true);
