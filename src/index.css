@@ -7,3 +7,11 @@ body {
     font-family: 'Work Sans', sans-serif;
     ;
 }
+
+.swiper-pagination-bullet {
+    background: #fa8c02;
+}
+
+.swiper-pagination-bullet-active {
+    background: #fa8c02;
+}

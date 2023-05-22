@@ -16,7 +16,7 @@ function App() {
             <Process />
             <Pattern className={"mb-20"} />
             <Pricing />
-            <Pattern className={"mb-20"} />
+            <Pattern />
         </div>
     );
 }

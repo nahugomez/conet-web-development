@@ -10,8 +10,8 @@ const ProcessCard = ({ image, title, description }) => {
         <div className="mb-8 w-full overflow-hidden rounded-3xl border">
             <div className="h-[230px]" style={BackgroundStyle}></div>
             <div className="p-6">
-                <h3 className="text-lg font-medium capitalize text-gray-700">{title}</h3>
-                <p className="text-gray-700">{description}</p>
+                <h3 className="text-lg font-medium capitalize text-gray-200">{title}</h3>
+                <p className="text-gray-200">{description}</p>
             </div>
         </div>
     );

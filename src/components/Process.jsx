@@ -9,13 +9,13 @@ import "swiper/css/navigation";
 const Process = () => {
     return (
         <div className="container mb-24 text-center lg:text-start">
-            <h2 className="text-2xl font-bold">Nuestro Proceso</h2>
+            <h2 className="text-2xl font-bold text-gray-200">Nuestro Proceso</h2>
             <div className="-mt-2">
-                <span className="inline-block h-1 w-40 rounded-full bg-blue-700"></span>
-                <span className="mx-1 inline-block h-1 w-3 rounded-full bg-blue-700"></span>
-                <span className="mx-1 inline-block h-1 w-1 rounded-full bg-blue-700"></span>
+                <span className="inline-block h-1 w-40 rounded-full bg-primary"></span>
+                <span className="mx-1 inline-block h-1 w-3 rounded-full bg-primary"></span>
+                <span className="mx-1 inline-block h-1 w-1 rounded-full bg-primary"></span>
             </div>
-            <p className="mb-10 text-center text-gray-700 lg:text-start">Conoce como es el desarrollo de tu web</p>
+            <p className="mb-10 text-center text-gray-200 lg:text-start">Conoce como es el desarrollo de tu web</p>
             <Swiper
                 slidesPerView={1}
                 spaceBetween={10}
