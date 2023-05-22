@@ -10,8 +10,8 @@ function App() {
         <div>
             <Navbar />
             <Hero />
-            <Features />
             <Pattern classname={"mb-20"} />
+            <Features />
             <Pricing />
         </div>
     );
