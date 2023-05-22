@@ -24,7 +24,7 @@ const Navbar = () => {
             <div className="container flex flex-wrap items-center justify-between">
                 <div className="flex items-center text-blue-800 duration-200 hover:opacity-60">
                     <Brand width={32} height={32} color={"#1D4ED8"} />
-                    <a href="#" className="ml-2 text-3xl font-bold">
+                    <a href="#" className="ml-2 text-3xl font-bold uppercase lg:text-xl xl:text-3xl">
                         Conet
                     </a>
                 </div>
