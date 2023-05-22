@@ -8,7 +8,7 @@ import "swiper/css/navigation";
 
 const Process = () => {
     return (
-        <div className="container mb-24 text-center">
+        <div className="container mb-24 text-center lg:text-start">
             <h2 className="text-2xl font-bold">Nuestro Proceso</h2>
             <div className="-mt-2">
                 <span className="inline-block h-1 w-40 rounded-full bg-blue-700"></span>
