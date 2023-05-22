@@ -30,7 +30,7 @@ const Navbar = () => {
                 </div>
                 <div
                     onClick={handlerMenuClick}
-                    className="cursor-pointer rounded-md border border-blue-800 p-1.5 text-white duration-200 hover:bg-blue-800 hover:text-white lg:hidden"
+                    className="cursor-pointer rounded-md border border-primary p-1.5 text-white duration-200 hover:bg-blue-800 hover:text-white lg:hidden"
                 >
                     {isOpen ? <HiMenu size={24} /> : <AiOutlineClose size={24} />}
                 </div>
