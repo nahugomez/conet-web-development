@@ -8,7 +8,7 @@ import Process from "./components/Process";
 
 function App() {
     return (
-        <div>
+        <div className="bg-dark">
             <Navbar />
             <Hero />
             <Pattern className={"mb-20"} />

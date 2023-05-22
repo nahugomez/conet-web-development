@@ -11,14 +11,20 @@ const Button = ({ className, onClick, href, children, secondary }) => {
 
     if (secondary) {
         return (
-            <button className={"rounded-md border-2 border-black duration-200 hover:bg-black hover:text-white " + className} onClick={onClick}>
+            <button
+                className={"rounded-md border-2 border-primary font-semibold text-primary duration-200 hover:border-white hover:bg-white hover:text-primary " + className}
+                onClick={onClick}
+            >
                 {children}
             </button>
         );
     }
 
     return (
-        <button className={"rounded-md border-2 border-blue-700 bg-blue-700 text-white duration-200 hover:bg-white hover:text-blue-600 " + className} onClick={onClick}>
+        <button
+            className={"rounded-md border-2 border-primary bg-primary font-semibold text-white duration-200 hover:border-white hover:bg-white hover:text-primary " + className}
+            onClick={onClick}
+        >
             {children}
         </button>
     );
