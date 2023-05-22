@@ -9,9 +9,9 @@ const Features = () => {
             <div className="flex flex-col items-center lg:items-start">
                 <h2 className="text-2xl font-bold">Features</h2>
                 <div className="-mt-2">
-                    <span class="inline-block h-1 w-40 rounded-full bg-blue-700"></span>
-                    <span class="mx-1 inline-block h-1 w-3 rounded-full bg-blue-700"></span>
-                    <span class="mx-1 inline-block h-1 w-1 rounded-full bg-blue-700"></span>
+                    <span className="inline-block h-1 w-40 rounded-full bg-blue-700"></span>
+                    <span className="mx-1 inline-block h-1 w-3 rounded-full bg-blue-700"></span>
+                    <span className="mx-1 inline-block h-1 w-1 rounded-full bg-blue-700"></span>
                 </div>
             </div>
             <p className="mb-10 text-center text-gray-700 lg:text-start">La mejor calidad.</p>

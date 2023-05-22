@@ -6,15 +6,15 @@ const Card = ({ title, price, description, className }) => {
     return (
         <div className={`rounded-lg border ${className}`}>
             <div className="p-6">
-                <h3 class="text-xl font-semibold capitalize text-blue-700">{title}</h3>
+                <h3 className="text-xl font-semibold capitalize text-blue-700">{title}</h3>
                 <p className="text-gray-700">{description}</p>
-                <p class="my-4 text-2xl font-bold text-gray-700">${price}</p>
+                <p className="my-4 text-2xl font-bold text-gray-700">${price}</p>
                 <Button className={"w-full py-2"}>Contactanos</Button>
             </div>
-            <hr class="border-gray-200"></hr>
+            <hr className="border-gray-200"></hr>
             <div className="p-6">
-                <h3 class="text-lg font-medium capitalize text-gray-700">Que incluye?</h3>
-                <div class="mt-4 flex flex-col gap-y-4">
+                <h3 className="text-lg font-medium capitalize text-gray-700">Que incluye?</h3>
+                <div className="mt-4 flex flex-col gap-y-4">
                     <div className="flex items-center gap-x-2">
                         <BsFillCheckCircleFill className="text-blue-700" />
                         <p className="text-gray-700">Maquetado de tu pagina web</p>

@@ -7,9 +7,9 @@ const Pricing = () => {
             <div className="mb-4 flex flex-col items-center justify-center lg:basis-1/3">
                 <h2 className="text-center text-2xl font-bold">Nuestros Precios</h2>
                 <div className="-mt-2">
-                    <span class="inline-block h-1 w-40 rounded-full bg-blue-700"></span>
-                    <span class="mx-1 inline-block h-1 w-3 rounded-full bg-blue-700"></span>
-                    <span class="mx-1 inline-block h-1 w-1 rounded-full bg-blue-700"></span>
+                    <span className="inline-block h-1 w-40 rounded-full bg-blue-700"></span>
+                    <span className="mx-1 inline-block h-1 w-3 rounded-full bg-blue-700"></span>
+                    <span className="mx-1 inline-block h-1 w-1 rounded-full bg-blue-700"></span>
                 </div>
                 <p className="text-gray-700">Conocé lo que ofrecemos para vos</p>
             </div>

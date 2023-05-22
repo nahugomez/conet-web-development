@@ -10,7 +10,7 @@ function App() {
         <div>
             <Navbar />
             <Hero />
-            <Pattern classname={"mb-20"} />
+            <Pattern className={"mb-20"} />
             <Features />
             <Pricing />
         </div>
